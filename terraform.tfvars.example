@@ -1,0 +1,11 @@
+controller_ip       = "x.x.x.x"
+controller_username = "admin"
+# export TF_VAR_controller_password='...'
+
+admin_alert_email                   = "alerts@example.com"
+critical_alert_email                = "alerts@example.com"
+security_event_email                = "alerts@example.com"
+status_change_email                 = "alerts@example.com"
+
+admin_user_email                 = "admin@example.com"
+copilot_user_email               = "admin@example.com"
