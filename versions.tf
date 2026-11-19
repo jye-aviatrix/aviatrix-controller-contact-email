@@ -1,8 +1,13 @@
 terraform {
+  required_version = ">= 1.5"
   required_providers {
     aviatrix = {
       source  = "AviatrixSystems/aviatrix"
       version = "8.1.20"
+    }
+    terracurl = {
+      source  = "devops-rob/terracurl"
+      version = "1.2.1"
     }
   }
 }
